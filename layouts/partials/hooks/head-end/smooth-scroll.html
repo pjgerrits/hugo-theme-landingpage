@@ -1,0 +1,16 @@
+<!-- Smooth & slow anchor scrolling -->
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+/*
+  selector      — which links to animate
+  speed         — milliseconds (1200 ≈ 1.2 s → noticeably slower)
+  offset        — pixel offset for a sticky header (edit if yours isn’t 70 px)
+  easing        — any CSS timing-function keyword or Bezier, e.g. 'easeInOutCubic'
+*/
+new SmoothScroll('a[href^="#"]', {
+  speed: 6000,
+  offset: 70,
+  easing: 'easeInOutCubic'
+});
+</script>
+
