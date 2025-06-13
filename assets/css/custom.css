@@ -1,0 +1,5 @@
+/* smooth anchor scrolling */
+html{scroll-behavior:smooth}
+
+/* keep headings clear of a 70 px sticky navbar – change if yours is taller */
+section[id]{scroll-margin-top:70px}
